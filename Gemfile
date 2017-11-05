@@ -57,3 +57,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # GraphQL
 gem 'graphql', '~> 1.7.4'
+gem 'search_object', '~> 1.2.0'
+gem 'search_object_graphql', '~> 0.1'
