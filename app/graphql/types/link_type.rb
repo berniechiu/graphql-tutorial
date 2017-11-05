@@ -9,4 +9,5 @@ Types::LinkType = GraphQL::ObjectType.define do
   # - "-> { }": helps against loading issues between types
   # - "property": remaps field to an attribute of Link model
   field :postedBy, -> { Types::UserType }, property: :user
+  field :votes, -> { !types[Types::VoteType] }
 end
